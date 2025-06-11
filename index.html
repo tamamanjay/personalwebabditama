@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio - Abditama</title>
+    <script
+      src="https://kit.fontawesome.com/de8de52639.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="home" id="home">
+      <nav>
+        <h2 class="logo">Abdi<span>tama</span></h2>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skill">Skill</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a href="#" class="btn">love you</a>
+      </nav>
+      <div class="home-content-wrapper">
+        <div class="content">
+          <h4>Hello, My Name Is</h4>
+          <h1>Muhammad Fitra <span>Abdi Tama</span></h1>
+          <h3>I'am a Jember State Polytechnic student</h3>
+          <a href="#about" class="content-button"
+            ><i class="far fa-user"></i> More About Me</a
+          >
+        </div>
+        <div class="image">
+          <img src="tama.jpg" alt="Foto Abditama" />
+        </div>
+      </div>
+    </div>
+
+    <section class="about" id="about">
+      <div class="about-me">
+        <img src="profilweb.jpg" alt="Foto Profil" />
+        <div class="about-text">
+          <h2>About <span>Me</span></h2>
+          <h5>Information Technology<span> & Informatics Engineering</span></h5>
+          <p>
+            Hello, my name is Muhammad Fitra Abdi Tama. I was born in Sidoarjo
+            on October 1, 2005, and I am the first of three siblings. Since
+            childhood, I have had a strong interest in the arts, especially
+            drawing. As I grew older, my interests shifted toward technology,
+            history, and politics, which have now become the main focus of my
+            life. With a strong passion for learning, I aspire to become a
+            fullstack developer. I am dedicated to continuously growing in the
+            field of technology and strive to expand my knowledge and skills,
+            particularly in programming.
+          </p>
+          <a href="#contact" class="button">Contact Me</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="education" id="education">
+      <div class="title">
+        <h2>Educa<span>tion</span></h2>
+      </div>
+      <div class="box">
+        <div class="card">
+          <i class="fas fa-book"></i>
+          <h5>SMP Negeri 3 Porong</h5>
+          <div class="pra">
+            <p>
+              I studied at 3 Porong State Junior High School for 3 years, from
+              2018 to 2021.
+            </p>
+            <button class="modal-btn" data-modal-target="smpModal">
+              Read More
+            </button>
+          </div>
+        </div>
+        <div class="card">
+          <i class="fas fa-school"></i>
+          <h5>SMA Negeri 1 Porong</h5>
+          <div class="pra">
+            <p>
+              I studied at 1 Porong State Senior High School for 3 years, from
+              2021 to 2024.
+            </p>
+            <button class="modal-btn" data-modal-target="smaModal">
+              Read More
+            </button>
+          </div>
+        </div>
+        <div class="card">
+          <i class="fas fa-university"></i>
+          <h5>Jember State Polytechnic</h5>
+          <div class="pra">
+            <p>
+              I am currently studying Information Technology at the Jember State
+              Polytechnic, starting in 2024.
+            </p>
+            <button class="modal-btn" data-modal-target="polijeModal">
+              Read More
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skill" id="skill">
+      <div class="title">
+        <h2>Ski<span>lls</span></h2>
+      </div>
+      <div class="box">
+        <div class="card">
+          <i class="fas fa-desktop"></i>
+          <h5>Front-End Developer</h5>
+          <div class="skill-bar">
+            <p>HTML</p>
+            <div class="skill-box"><div class="html">15%</div></div>
+          </div>
+          <div class="skill-bar">
+            <p>CSS</p>
+            <div class="skill-box"><div class="css">20%</div></div>
+          </div>
+          <div class="skill-bar">
+            <p>Javascript</p>
+            <div class="skill-box"><div class="javascript">10%</div></div>
+          </div>
+          <button class="modal-btn" data-modal-target="skillModal">
+            View Details
+          </button>
+        </div>
+        <div class="card">
+          <i class="fas fa-laptop-code"></i>
+          <h5>Back-End Developer</h5>
+          <div class="skill-bar">
+            <p>Python</p>
+            <div class="skill-box"><div class="python">10%</div></div>
+          </div>
+          <div class="skill-bar">
+            <p>MySQL</p>
+            <div class="skill-box"><div class="mysql">1%</div></div>
+          </div>
+          <div class="skill-bar">
+            <p>PHP</p>
+            <div class="skill-box"><div class="php">0%</div></div>
+          </div>
+          <button class="modal-btn" data-modal-target="skillModal">
+            View Details
+          </button>
+        </div>
+        <div class="card">
+          <i class="fas fa-palette"></i>
+          <h5>UI / UX Design</h5>
+          <div class="skill-bar">
+            <p>Sketch</p>
+            <div class="skill-box"><div class="sketch">10%</div></div>
+          </div>
+          <div class="skill-bar">
+            <p>Photoshop</p>
+            <div class="skill-box"><div class="photoshop">10%</div></div>
+          </div>
+          <div class="skill-bar">
+            <p>Figma</p>
+            <div class="skill-box"><div class="figma">0%</div></div>
+          </div>
+          <button class="modal-btn" data-modal-target="skillModal">
+            View Details
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-me" id="contact">
+      <div class="title">
+        <h2>Contact <span>Me</span></h2>
+      </div>
+      <div class="contact-info">
+        <div class="contact-box">
+          <div class="contact-item">
+            <h4>Address</h4>
+            <p>Kav.Beringin Rt.10/Rw.03, Porong, Sidoarjo, Jawa Timur</p>
+          </div>
+          <div class="contact-item">
+            <h4>Email</h4>
+            <p>abditamafit@gmail.com</p>
+          </div>
+          <div class="contact-item">
+            <h4>Phone</h4>
+            <p>+6285-748862458</p>
+          </div>
+        </div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.3013827409207!2d112.7057883152959!3d-7.431811994635671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7e3d1aaaaaaab%3A0x3e8bce22a1d2932!2sSidoarjo%2C%20East%20Java!5e0!3m2!1sen!2sid!4v1678886400000"
+          width="100%"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+
+    <footer>
+      <p>Muhammad Fitra Abdi Tama</p>
+      <p>
+        To find out more about me, click the contact and social media links
+        below.
+      </p>
+      <div class="sosial">
+        <a href="https://www.tiktok.com/@abditamaft?lang=en" target="_blank"
+          ><i class="fab fa-tiktok"></i
+        ></a>
+        <a href="https://www.youtube.com" target="_blank"
+          ><i class="fab fa-youtube"></i
+        ></a>
+        <a
+          href="https://www.facebook.com/profile.php?id=100080694737273"
+          target="_blank"
+          ><i class="fab fa-facebook"></i
+        ></a>
+        <a href="https://www.instagram.com/abditamaft/" target="_blank"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="https://x.com/22Muhammad" target="_blank"
+          ><i class="fab fa-twitter"></i
+        ></a>
+      </div>
+      <p class="end">Copyright © 2025 By Muhammad Fitra Abdi Tama</p>
+    </footer>
+
+    <div class="modal" id="smpModal">
+      <div class="modal-content">
+        <span class="close-btn">×</span>
+        <i class="fas fa-book"></i>
+        <h2>SMP Negeri 3 Porong</h2>
+        <p><strong>Tahun:</strong> 2018 - 2021</p>
+        <p>
+          Di sini saya memulai perjalanan pendidikan menengah saya, membangun
+          dasar-dasar pengetahuan dan persahabatan. Saya aktif dalam beberapa
+          kegiatan ekstrakurikuler yang membentuk karakter saya.
+        </p>
+      </div>
+    </div>
+
+    <div class="modal" id="smaModal">
+      <div class="modal-content">
+        <span class="close-btn">×</span>
+        <i class="fas fa-school"></i>
+        <h2>SMA Negeri 1 Porong</h2>
+        <p><strong>Tahun:</strong> 2021 - 2024</p>
+        <p>
+          Masa SMA adalah periode di mana minat saya terhadap teknologi mulai
+          berkembang pesat. Saya memilih jurusan IPA dan mulai belajar
+          dasar-dasar logika pemrograman secara mandiri.
+        </p>
+      </div>
+    </div>
+
+    <div class="modal" id="polijeModal">
+      <div class="modal-content">
+        <span class="close-btn">×</span>
+        <i class="fas fa-university"></i>
+        <h2>Jember State Polytechnic</h2>
+        <p><strong>Tahun:</strong> 2024 - Sekarang</p>
+        <p>
+          Saat ini saya menempuh pendidikan tinggi di Politeknik Negeri Jember,
+          jurusan Teknik Informatika. Saya bersemangat untuk mendalami dunia
+          pengembangan web dan perangkat lunak, dengan cita-cita menjadi seorang
+          Fullstack Developer yang andal.
+        </p>
+      </div>
+    </div>
+
+    <div class="modal" id="skillModal">
+      <div class="modal-content">
+        <span class="close-btn">×</span>
+        <i class="fas fa-cogs"></i>
+        <h2>Detail Keterampilan</h2>
+        <p>
+          Saya sedang dalam tahap awal perjalanan saya menjadi seorang
+          developer. Persentase ini mencerminkan pemahaman dasar saya saat ini,
+          dan saya sangat bersemangat untuk terus belajar dan meningkatkannya
+          setiap hari.
+        </p>
+        <ul>
+          <li>
+            <strong>Front-End:</strong> Saya telah mempelajari dasar-dasar HTML,
+            CSS, dan JavaScript untuk membangun antarmuka web yang statis.
+          </li>
+          <li>
+            <strong>Back-End:</strong> Saya mulai menyentuh Python sebagai
+            bahasa pemrograman pertama saya di sisi server.
+          </li>
+          <li>
+            <strong>UI/UX:</strong> Saya memiliki minat dalam desain dan telah
+            mencoba beberapa tools seperti Sketch dan Photoshop untuk membuat
+            konsep visual.
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
